@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/Vector.hpp
+iostream
+-
+cmath
+-
+
+C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/setLine.cpp
+setLine.hpp
+C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/setLine.hpp
+
+C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/setLine.hpp
+iostream
+-
+string
+-
+Vector.hpp
+C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/Vector.hpp
+

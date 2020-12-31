@@ -1,0 +1,3 @@
+C:/Users/HosodaMath/Main/crative_to_svg/CPP/cmake-build-debug/CMakeFiles/CPP.dir
+C:/Users/HosodaMath/Main/crative_to_svg/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HosodaMath/Main/crative_to_svg/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

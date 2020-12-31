@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/HosodaMath/Main/crative_to_svg/CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP">
+				<Option output="C:/Users/HosodaMath/Main/crative_to_svg/CPP/cmake-build-debug/CPP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HosodaMath/Main/crative_to_svg/CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 CPP"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP/fast">
+				<Option output="C:/Users/HosodaMath/Main/crative_to_svg/CPP/cmake-build-debug/CPP.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/HosodaMath/Main/crative_to_svg/CPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 CPP/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/HosodaMath/Main/crative_to_svg/CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/HosodaMath/Main/crative_to_svg/CPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\HosodaMath\Main\crative_to_svg\CPP\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/main.cpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/Line.cpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/Line.hpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/Point.cpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/Point.hpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/SetCircle.cpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/SetCircle.hpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/Vector.hpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/base.cpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/base.hpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/file_operation.cpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/file_operation.h">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/setLine.cpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/module/setLine.hpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/svg.hpp">
+			<Option target="CPP"/>
+		</Unit>
+		<Unit filename="C:/Users/HosodaMath/Main/crative_to_svg/CPP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
