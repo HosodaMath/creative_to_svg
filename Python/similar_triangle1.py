@@ -84,7 +84,11 @@ class SimilarTriangle:
 
         return tmp
 
-    def svg_file_build(self):
+    def svg_file_build(self) -> None:
+        """
+        まとめてsvg形式で出力
+        :return: None
+        """
         data: List[str] = []
 
         tmp_data1: List[Vector2] = self.triangle_data1()

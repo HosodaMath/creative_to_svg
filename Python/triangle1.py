@@ -36,7 +36,11 @@ class Triangle:
 
         return tmp
 
-    def svg_file_build(self):
+    def svg_file_build(self) -> None:
+        """
+        svg形式で出力
+        :return: None
+        """
         tmp_data1: List[Vector2] = self.triangle_data()
         poly1 = self.render_triangle1(tmp_data1)
         triangle_build = TestSVG(self.width, self.height)
