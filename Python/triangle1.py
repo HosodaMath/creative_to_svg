@@ -14,8 +14,8 @@ class Triangle:
         三角形を描くデータ
         :return:
         """
-        x: List[float] = [0.0, self.width, self.width]
-        y: List[float] = [self.height, self.height, 0]
+        x: List[float] = [10.0, self.width - 10.0, self.width - 10.0]
+        y: List[float] = [self.height - 10, self.height - 10, 10.0]
         data: List[Vector2] = []
         if len(x) == len(y):
             for count in range(0, 3):
@@ -40,12 +40,12 @@ class Triangle:
         tmp_data1: List[Vector2] = self.triangle_data()
         poly1 = self.render_triangle1(tmp_data1)
         triangle_build = TestSVG(self.width, self.height)
-        triangle_build.testSVG3()
-        
+        triangle_build.testSVG3("triangle/triangle1", poly1)
+
 
 if __name__ == '__main__':
     init_width = 512.0
     init_height = 512.0
 
     triangle1 = Triangle(init_width, init_height)
-
+    triangle1.svg_file_build()
