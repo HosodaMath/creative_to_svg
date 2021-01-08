@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+  padding: 20px;
+  margin: 20px;
+}
+
+.gradient_container1, .gradient_container2 {
+  padding: 20px;
+  margin: 20px;
+}

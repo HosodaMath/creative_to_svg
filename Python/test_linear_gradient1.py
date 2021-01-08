@@ -72,7 +72,7 @@ class Test1_LinearGradient1:
     def svg_data_build(self):
         build = TestSVGMulti(self.width, self.height)
         tmp_test = self.test_linear_gradient()
-        file_name = "test_gradient_svg/test1_linear_gradient1"
+        file_name = "test_gradient_svg/svg/test1_linear_gradient1"
         build.testSVG3(file_name, tmp_test)
 
 
@@ -99,7 +99,7 @@ class Test2_LinearGradient1(Test1_LinearGradient1):
         start = start_definition()
         linear_gradient_tag_data.append(start)
 
-        linear_gradient_id = "linear_gradient1"
+        linear_gradient_id = "linear_gradient2"
 
         # 線形グラデーションデータを呼び出している。
         linear_gradient_data = set_gradient_data()
@@ -130,7 +130,7 @@ class Test2_LinearGradient1(Test1_LinearGradient1):
     def svg_data_build(self):
         build = TestSVGMulti(self.width, self.height)
         tmp_test = self.test_linear_gradient()
-        file_name = "test_gradient_svg/test2_linear_gradient1"
+        file_name = "test_gradient_svg/svg/test2_linear_gradient1"
         build.testSVG3(file_name, tmp_test)
 
 
