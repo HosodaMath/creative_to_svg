@@ -1,6 +1,6 @@
 from mathematics import vector as vt
-from testBaseSVG import TestSVG
-from testPoint import Point2Test
+from test_base_svg import TestSVG
+from test_point import Point2Test
 
 
 def testSVG1(init_width: float, init_height: float) -> None:

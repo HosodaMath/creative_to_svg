@@ -1,6 +1,6 @@
 from mathematics.vector import Vector2
 from geometry.polygon import Polygon
-from testBaseSVG import TestSVGMulti, TestSVG
+from test_base_svg import TestSVGMulti, TestSVG
 from typing import List
 
 
