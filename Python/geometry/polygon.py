@@ -1,6 +1,6 @@
 from mathematics.vector import Vector2
 from typing import List
-from utility.convert_str import format_one
+from utility.convert_str import format_polygon_one
 
 
 class BasePolygon:
@@ -48,7 +48,7 @@ class Polygon(BasePolygon):
         :param fillOpacity: fill-opacity
         :return: str
         """
-        str_data = format_one(self.data)
+        str_data = format_polygon_one(self.data)
         tmp = "<polygon points=\"{0}\" fill=\"{1}\" fill-opacity=\"{2}\" />\n".format(str_data, fillColor, fillOpacity)
 
         return tmp
@@ -65,7 +65,7 @@ class Polygon(BasePolygon):
         :param strokeOpacity: float stroke-opacity
         :return set_polygon: str
         """
-        str_data = format_one(self.data)
+        str_data = format_polygon_one(self.data)
 
         start = "<polygon"
         location_data = " points=\"{0}\"".format(str_data)
@@ -86,7 +86,7 @@ class Polygon(BasePolygon):
         :param strokeOpacity: float stroke-opacity
         :return set_polygon: str
         """
-        str_data = format_one(self.data)
+        str_data = format_polygon_one(self.data)
 
         start = "<polygon"
         location_data = " points=\"{0}\"".format(str_data)
