@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+  background-color: #f0f8ff;
+  padding: 20px;
+  margin: 20px;
+}
+
+.pattern_header{
+  text-align: center;
+}
+
+
+.main_title {
+  text-align: center;
+}
+
+.start_linear_pattern {
+  text-align: center;
+}
+
+.main_item {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+}
+
+.item {
+  background-color: #95ceff;
+  width: 256px;
+  height: 256px;
+  /*border: 1px dashed black;*/
+  
+}
